@@ -31,6 +31,7 @@ function App() {
   },[count])
   //useEffect will re-run with count changes :)
   //to run once only, leave an emtpy []
+  //test
   if(count === 0){
     return(
       <div className="container">
